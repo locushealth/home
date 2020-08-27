@@ -5,11 +5,6 @@
     $email_body = "hello";
  
 
-    if(mail("vasudhagroup.3@gmail.com",$email_subject,$email_body,))
-    {
-      $msg = "Message Sent";
+    mail("vasudhagroup.3@gmail.com",$email_subject,$email_body);
 
-    echo $msg;
-  }
-    }
 ?>
