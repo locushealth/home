@@ -549,8 +549,8 @@ margin-top: 4px;
     width:55px;
   }
   #pic{
-    height:75px;
-    width:50px;
+    height:90px;
+    width:55px;
     padding: 8px 23px 0px 23px;
   }
   #first3 p{
@@ -656,4 +656,11 @@ margin-top: 4px;
     padding-right:-30px;
   }
 
+}
+
+@media screen and (max-width: 360px) {
+  #pic{
+    height:75px;
+    width:50px;
+  }
 }
