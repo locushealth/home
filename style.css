@@ -617,7 +617,9 @@ margin-top: 4px;
     width:7px;
     border: 0.01rem solid black;
   }
-
+  .dark #e div{
+    border:0.01rem solid white;
+  }
   #hr1{
     width:110px;
   }
@@ -647,11 +649,11 @@ margin-top: 4px;
     padding-top: 27px;
   }
   #sun{
-    font-size:14px;
+    font-size:18px;
     padding-top: 27px;
   }
   #lang-toggle{
-    font-size: 14px;
+    font-size: 18px;
     padding-top: 22px;
     padding-right:-30px;
   }
