@@ -108,9 +108,8 @@ margin-top: 4px;
 }
 
 .navbar {
-  width:100%;
   background-color:#80fff8;
-  padding: 10px 10px 10px 10px;
+  padding: 11.9px 11.8px 11.7px 11.6px;
   margin-top:15px;
 }
 
@@ -119,25 +118,12 @@ margin-top: 4px;
   text-decoration: none;
   font-family:Ubuntu,verdana,helvetica;
   background-color:#80fff8;
-  padding:10px 10px 10px 10px;
+  padding:12px 12px 12px 12px;
   margin-left:-9px;
-  font-size:18px;
+  font-size:16px;
   cursor:pointer;
   color:black;
   transition: all 0.5s;
-}
-
-#navbar2{
-  border-left:1px solid black;
-}
-#navbar3{
-  border-left:1px solid black;
-}
-#navbar4{
-  border-left:1px solid black;
-}
-#navbar5{
-  border-left:1px solid black;
 }
 
 #navbar a:hover {
@@ -164,7 +150,7 @@ margin-top: 4px;
   transition: width 0.5s;
 }
 
-#hr1:hover{
+.heading:hover #hr1{
  width:250px;
 }
 
@@ -434,19 +420,6 @@ margin-top: 4px;
     transform-style: all;
   }
 
-  #navbar2{
-    border:none;
-  }
-  #navbar3{
-    border:none;
-  }
-  #navbar4{
-    border:none;
-  }
-  #navbar5{
-    border:none;
-  }
-
   .bar1 , .bar2 {
     margin-bottom: 4px;
   }
@@ -659,16 +632,17 @@ margin-top: 4px;
   }
 
   #navbar a{
-    font-size:12px;
+    font-size:15px;
   }
 
   #nav-toggle{
-    padding: 7px 0px 7px 7px;
+    padding: 7px 2.5px 7px 7px;
     text-align: center;
   }
   .bar1 , .bar2 , .bar3{
     border: 2px solid black;
-    width:15px;
+    width:20px;
+    background-color: black;
   }
 
   #moon{
