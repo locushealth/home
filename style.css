@@ -17,6 +17,13 @@
   }
 }
 
+@keyframes heading2 {
+  from{margin-left: 1200px;
+  opacity:0;}
+  to{margin-left: 0px;
+  opacity: 1;}
+}
+
 @keyframes heading23 {
   from{margin-left: 250px;
   opacity:0;}
@@ -483,8 +490,8 @@ margin-top: 4px;
     padding:none;
     display: none;
     flex-direction: column;
-    animation-name: heading23;
-    animation-duration: 1s;
+    animation-name: heading2;
+    animation-duration: 0.8s;
     animation-fill-mode: forwards;
   }
 
