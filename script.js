@@ -32,3 +32,14 @@ btn.onmouseout = function functionName() {
   document.getElementById("bar12").classList.remove("whitebar");
   document.getElementById("bar13").classList.remove("whitebar");
 }
+
+var content;
+
+function loadfunc() {
+  content = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("main-content").style.display = "block";
+}
