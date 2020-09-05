@@ -36,7 +36,7 @@ btn.onmouseout = function functionName() {
 var content;
 
 function loadfunc() {
-  content = setTimeout(showPage, 3000);
+  content = setTimeout(showPage, 8000);
 }
 
 function showPage() {
