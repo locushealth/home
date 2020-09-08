@@ -6,7 +6,9 @@
 #main-content{
   display: none;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 #loader {
   position: absolute;
   left: 50%;
